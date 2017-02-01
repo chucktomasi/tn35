@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Option" max_length="40" name="x_tn35_option" type="collection">
+        <element label="Attribute" max_length="32" name="attribute" reference="x_tn35_attribute" type="reference"/>
+        <element display="true" label="Description" max_length="40" name="description" type="string"/>
+        <index name="index">
+            <element name="attribute"/>
+        </index>
+    </element>
+</database>
