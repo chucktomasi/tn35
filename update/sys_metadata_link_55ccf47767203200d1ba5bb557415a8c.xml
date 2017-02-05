@@ -20,7 +20,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-01 22:36:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>55ccf47767203200d1ba5bb557415a8c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Chevy</sys_name>

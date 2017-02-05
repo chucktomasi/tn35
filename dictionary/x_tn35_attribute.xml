@@ -3,5 +3,8 @@
     <element label="Attribute" max_length="40" name="x_tn35_attribute" type="collection">
         <element display="true" label="Description" max_length="40" name="description" type="string"/>
         <element label="Person" max_length="40" name="person" reference="x_tn35_person" type="reference"/>
+        <index name="index">
+            <element name="person"/>
+        </index>
     </element>
 </database>
